@@ -15,6 +15,10 @@
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
+  
+  <link href='contact.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
 </head>
@@ -31,7 +35,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#aboutAnchor">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
@@ -46,22 +50,90 @@
 
   <header class="bg-primary text-white" id="headerSpace" >
     <div class="container text-left" style="">
-      <h1>We will fix your slow website. We'll make it snappy and responsive.</h1>
-      <p class="lead">A slow website costs you money! and causes headaches and aggravation.</p>
+      <h1>Slow websites are Aggravating!</h1>
+      <p class="lead">A slow website costs you money and Loses you customers.</p>
     </div>
   </header>
 
-  <section id="about">
-    <div class="container w-75" id="innerAbout">
+  <section class="bg-light" id="attn" >
+    <div class="container" id="innerAttn">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-                   
+        <div class="col-lg-10 mx-auto">
+            <img id="innerImg" src="../img/page-load-time.webp" alt="speed-up-slow-website-bedford-ma">
+        </div>
+        <div class="col-lg-10 mx-auto  text-center" style="padding-top: 10%;">
+          <p style="font-size: 1.5em; font-weight:bolder;" id="aboutAnchor">Think back to the last time a slow website aggravated you...</p>
+
+        </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="services" style="background: #42dbcf ;">
+ <!-- <section id="empty">
+    <div class="container">
+      <div class="col-md-8"></div>
+    </div>
+  </section>-->
+ 
+  <section id="about">
+    <div class="container" id="innerAbout">
+      <div class="row">
+        <div class="col-lg-8 mx-auto" id="aboutText">
+
+           <p style="font-size: 1.1em;"> 
+            You were probably on your phone searching for something and 
+            you thought you finally found the answer. 
+            The brief description on Google sounds great but you need to know more. You click the link
+            and wait for the page to load but it takes too long and you hit the back button. 
+            The website loaded way too slow, you got impatient and you backed out of the page before you got what you needed.
+            </p>
+            <p style="font-size: 1.5em; font-weight:bolder;">The Problem...</p>
+            <p style="font-size: 1.1em;">
+             The above issue is called a bad user-experience and unless you have a seriously niche business then you need 
+             a fast website, it needs to be snappy and responsive on phones and computers. Unfortunately until just recently it wasnt really a big deal, if your website was  
+             a little bloated but still had useful and accurate information then Google didnt really care. That is simply not the case now,
+             in July 2018 Google released <a href="https://developers.google.com/web/updates/2018/07/search-ads-speed#speed_is_now_a_landing_page_factor_for_google_search_and_ads_2">this article</a>
+             that spells it out in plain english.</p>
+
+             <blockquote><em><span style="font-weight: bolder; font-size: 1.1em; text-align: center;">Speed is now a landing page factor for Google Search and Ads</span></blockquote>
+              <blockquote>
+              When real users have a slow experience on mobile, they're much less likely to 
+              find what they are looking for or purchase from you in the future. 
+              For many sites this equates to a huge missed opportunity, especially when more than
+              half of visits are abandoned if a mobile page takes over 3 seconds to load...</em> 
+
+
+             </blockquote>
+            
+            <p style="font-size: 1.5em; font-weight:bolder;">The Solution</p>
+
+            <p style="font-size: 1.1em;">The truth is you probably have a really slick and flashy looking website, it might even be brand new. Unfortunately
+              new does not equal fast and with more and more web searches coming from mobile device, your website needs to be fast.
+              This is where I come in. I will give your existing website the boost it needs to give your
+              customers the info they need and the great user-experience they deserve. I can often do this without making any changes to 
+              your existing websites design, you get to keep the layout that you already love and your customers recognize. The only thing that will
+              change is how fast your website loads.
+              
+            </p>
+
+            <p style="font-size: 1.35em; font-weight: bolder; text-align: center; padding-top: 3%;">Want to see how your website performs now ?</p>
+        </div>
+        <div class="col-lg-8 mx-auto text-center">
+          <p>You can use these services to get a detailed report on you site. Fair warning, you may be dissapointed in the results.</p>
+          <a href="https://gtmetrix.com/" class="btn btn-info btn-lg " role="button" aria-pressed="true">GtMetrix</a>
+          <a href="https://developers.google.com/speed/pagespeed/insights/" class="btn btn-info btn-lg " role="button" aria-pressed="true">Google Page Speed</a> 
+        </div>
+        <div class="col-lg-8 mx-auto text-center">
+          <p style="margin-top: 2%; font-size:1.2em; text-align:justify">If you'd prefer that I deliver you a report about the performance of your existing website, you can reach me here.</p>
+          <a href="#" class="btn btn-warning btn-lg" role="button" aria-pressed="true">Contact Me</a> 
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-dark">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -75,49 +147,40 @@
                   <li> > Keep potential customers on site longer.</li>
                   <li> > Decrease Bounce Rates.</li>
                   <li> > Minimal to no changes to your existing websites design.</li>
-                </ul>
+                </ul> class="col-lg-4 d-flex align-items-stretch"
                 </code>-->
-                <div class="accordion" id="accordionExample">
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Collapsible Group Item #1
-                        </button>
-                      </h2>
-                    </div>
-                
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <h2 style="margin-bottom: 2%; color:white;">What I do.</h2>
+                <div class="row">
+                  <div class="col-sm-4 d-flex align-items-stretch">
+                    <div class="card bg-light">
                       <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <h5 class="card-title">Website Speed Optimization</h5>
+                        <p class="card-text">Speed up your existing website. Incease page loading times on desktop and mobile
+                          increase page performace score to 90% or above.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
                       </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header" id="headingTwo">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Collapsible Group Item #2
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="col-sm-4 d-flex align-items-stretch">
+                    <div class="card bg-light">
                       <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <h5 class="card-title">Website Consulting</h5>
+                        <p class="card-text">Identify all issues with existing website, audit your current marketing plans and ad spend and report
+                          back how to improve your current website and marketing.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
                       </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Collapsible Group Item #3
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="col-sm-4 d-flex align-items-stretch">
+                    <div class="card bg-light">
                       <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <h5 class="card-title">New Website Design and Development</h5>
+                        <p class="card-text">I also provide web-design and development. I'll work work with you
+                          to create an awesome small business website.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
                       </div>
                     </div>
                   </div>
@@ -131,8 +194,70 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <h2>Contact me</h2>
+          <p class="lead">Lets talk about what I can do for your small business website. It costs nothing to email me and you get a zero obligation free website report just for 
+            reaching out to me. Click below for a completely free, zero obligation website audit and report.
+          </p>
+        </div>
+        <div class="col-lg-8 mx-auto text-center">
+          <form id="contact-form" method="post" action="contact-2.php" role="form">
+
+            <div class="messages"></div>
+
+            <div class="controls">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_name">Firstname *</label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_lastname">Lastname *</label>
+                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_phone">Phone</label>
+                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+        </form>
         </div>
       </div>
     </div>
@@ -141,7 +266,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+      <p class="m-0 text-center text-white">Copyright &copy; SeeSnappy 2020</p>
     </div>
     <!-- /.container -->
   </footer>
@@ -155,6 +280,8 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
+  <script src="validator.js"></script>
+  <script src="js/contact.js"></script>
 
 </body>
 

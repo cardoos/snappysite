@@ -1,0 +1,56 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+#headerSpace{
+  background: rgb(12,175,149);
+  background: linear-gradient(90deg, rgba(12,175,149,0.7651435574229692) 0%, 
+  rgba(11,145,142,1) 41%, rgba(174,86,175,0.5354516806722689) 82%);
+  height
+}
+
+section {
+  padding: 150px 0;
+}
+
+#about{
+  z-index:0;
+  height:400px;
+}
+#innerAbout{
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -200px;
+  margin-bottom: -50px;
+  background-image: url("../img/speed-up-slow-website.jpeg");
+  background-color: white;
+  padding-top: 5%;
+  border-radius: 5px;
+  height:500px
+  
+}
+
+#services{
+  z-index: -1;
+}
+
+#what{
+  color:aliceblue;
+  list-style-type: none; /* Remove bullets */
+
+
+}
+
+#what li{
+  margin: 0 0 25px 0;
+  font-weight: bolder;
+}

@@ -4,43 +4,49 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 header {
-  padding: 156px 0 100px;
+  padding: 156px 0 145px;
 }
 
 #headerSpace{
-  background: rgb(12,175,149);
-  background: linear-gradient(90deg, rgba(12,175,149,0.7651435574229692) 0%, 
-  rgba(11,145,142,1) 41%, rgba(174,86,175,0.5354516806722689) 82%);
-  height
+  background: rgb(238,174,202);
+  background: -moz-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
 }
 
 section {
   padding: 150px 0;
 }
 
-#about{
+#attn{
   z-index:0;
-  height:400px;
+  padding-bottom: 1%;
 }
-#innerAbout{
+
+#innerImg{
   z-index: 1;
-  position: absolute;
+  
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   margin-top: -200px;
-  margin-bottom: -50px;
-  background-image: url("../img/speed-up-slow-website.jpeg");
-  background-color: white;
-  padding-top: 5%;
+  background-size: contain;
   border-radius: 5px;
-  height:500px
+  width: 100%;
   
+}
+#about{
+  padding: 2%;
+}
+#aboutText{
+
 }
 
 #services{
   z-index: -1;
+  padding: 75px 0;
 }
 
 #what{
@@ -53,4 +59,9 @@ section {
 #what li{
   margin: 0 0 25px 0;
   font-weight: bolder;
+}
+
+.btn{
+  margin:5%;
+  
 }
